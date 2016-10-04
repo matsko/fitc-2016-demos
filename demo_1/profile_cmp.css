@@ -1,0 +1,28 @@
+:host {
+  display:table;
+  width:100%;
+}
+
+.profile-avatar, .profile-information {
+  display:table-cell;
+  width:50%;
+  vertical-align:top;
+}
+
+.profile-information {
+  padding:1em;
+}
+
+.profile-avatar {
+  position:relative;
+  overflow:hidden;
+}
+
+.profile-avatar img {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width:130%;
+  min-height:100%;
+}

@@ -1,0 +1,11 @@
+.locations {
+  width:100%;
+  display:table;
+}
+.locations > div {
+  display:table-cell;
+}
+h2 {
+  padding:1em;
+  background:#eee;
+}

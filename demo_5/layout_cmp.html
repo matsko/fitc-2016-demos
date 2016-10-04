@@ -1,0 +1,11 @@
+<div class="controls">
+    <button (click)="bigToSmall()">Big to Small</button>
+    <button (click)="smallToBig()">Small to Big</button>
+    <button (click)="middle()">Middle</button>
+    <button (click)="defaultSizes()">Default Sizes</button>
+</div>
+<div *ngFor="let number of numbers"
+     [@layout]="number.priority"
+     [attr.class]="makeClass(number.value)">
+    {{ number.value }}
+</div>

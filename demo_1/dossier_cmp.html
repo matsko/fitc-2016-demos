@@ -1,0 +1,16 @@
+<h2>About {{ user.name }}</h2>
+<profile-cmp [user]="user"></profile-cmp>
+
+<section class="locations">
+  <div class="current">
+    <h2>Current Location: {{ location }}</h2>
+    <map-cmp [location]="location"></map-cmp>
+  </div>
+  <div class="hometown">
+    <h2>Hometown: {{ hometown }}</h2>
+    <map-cmp [location]="hometown"></map-cmp>
+  </div>
+</section>
+
+<h2>FITC Friends</h2>
+<friends-cmp [friends]="friends"></friends-cmp>

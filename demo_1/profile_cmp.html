@@ -1,0 +1,17 @@
+<div class="profile-avatar">
+  <img [src]="user.avatarUrl" />
+</div>
+
+<div class="profile-information">
+  <h2>{{ user.name }}</h2>
+  <sup>{{ user.title }}</sup>
+  <p>{{ user.bio }}</p>
+  <p>{{ user.website }}</p>
+  <hr />
+  <ol>
+    <li *ngFor="let record of user.information">
+      <strong class="label">{{ record.label | formatLabel }}: </strong>
+      <span class="value">{{ record.value }}</span>
+    </li>
+  </ol>
+</div>

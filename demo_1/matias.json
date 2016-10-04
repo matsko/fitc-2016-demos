@@ -1,0 +1,25 @@
+{
+  "title": "Monster of Animations", 
+  "name": "Matias Niemela",
+  "website": "www.yearofmoo.com",
+  "avatarUrl": "./demo_1/images/matias.jpg",
+  "location": "San Francisco",
+  "hometown": "Helsinki, Finland",
+  "bio": "A crafty Finnish/Canadian programmer lurking in the depths of Google making Angular animations work",
+  "information": {
+    "age": 29,
+    "expertise": "Angular",
+    "choise_of_programming_language": "JavaScript",
+    "hometown": "Helsinki Finland",
+    "favourite_food": "Spaghetti",
+    "favourite_color": "Red"
+  },
+  "friends": [
+    {"id": 1, "name": "Robyn", "avatarUrl": "./demo_1/images/1.jpg"},
+    {"id": 2, "name": "Rami", "avatarUrl": "./demo_1/images/2.jpg"},
+    {"id": 3, "name": "Alicia", "avatarUrl": "./demo_1/images/3.jpg"},
+    {"id": 4, "name": "Yuri", "avatarUrl": "./demo_1/images/4.jpg"},
+    {"id": 5, "name": "Carl", "avatarUrl": "./demo_1/images/5.jpg"},
+    {"id": 6, "name": "Mike", "avatarUrl": "./demo_1/images/6.jpg"}
+  ]
+}
